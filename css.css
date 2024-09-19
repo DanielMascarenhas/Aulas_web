@@ -1,0 +1,24 @@
+img {
+    width: 50px;  /* Defina a largura desejada */
+    height: 50px; /* Defina a altura desejada */
+    object-fit: cover; /* Faz com que a imagem cubra o elemento sem distorcer */
+    padding: 50px;
+  }
+
+
+
+  input::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+textarea::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+#area1{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
